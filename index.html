@@ -1,0 +1,17 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1><span id="bigbuff">Buff</span> Passwords!<br><span id="smalltxt">Never use an insecure password again!💪🏿</span></h1>
+        <div class="genbtn">
+            <button id="buffbtn" onclick="genBuffPass()">Buff me up, baby!</button> <!--16 characters-->
+            <button id="xbuffbtn" onclick="genXBuffPass()">EXTRA BUFF!</button> <!--26 characters-->
+        </div>
+        <div class="passwords">
+            <p id="pass1" onclick="copyPass()"></p> <!--Random password #1-->
+            <p id="pass2" onclick="copyPass()"></p> <!--Random password #2-->
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
